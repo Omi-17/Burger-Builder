@@ -1,0 +1,49 @@
+.Order {
+    width: 60%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+h3{
+    margin-top: 0;
+}
+li{
+    margin: 5px auto;
+}
+.Order li{
+    font-size: 17px;
+}
+.Order p{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+@media (max-width: 450px)
+{
+    h3{
+        font-size: 1rem;
+    }
+    .Order li{
+        font-size: 1rem;
+    }
+    .Order p{
+        font-size: 1rem;
+    }
+    
+}
+
+@media (max-width: 350px)
+{
+    h3{
+        font-size: 0.75rem;
+    }
+    .Order li{
+        font-size: 0.75rem;
+    }
+    .Order p{
+        font-size: 0.75rem;
+    }
+    
+}
